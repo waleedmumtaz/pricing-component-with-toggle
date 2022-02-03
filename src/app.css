@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .background-pattern {
+    background-image: url(/assets/bg-bottom.svg), url(/assets/bg-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+  }
+
+  /* Toggle switch */
+  input:checked ~ .dot {
+    transform: translateX(100%);
+  }
+}
