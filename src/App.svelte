@@ -17,9 +17,9 @@
 </svelte:head>
 
 <main
-  class="background-pattern min-h-screen font-montserrat bg-cstm-very-light-grayish-blue"
+  class="background-pattern min-h-screen font-montserrat bg-cstm-very-light-grayish-blue flex flex-col justify-center relative"
 >
-  <div class="max-w-5xl mx-auto">
+  <div class="max-w-5xl mx-auto w-full">
     <div class="flex flex-col items-center mb-20">
       <h1 class="mt-16 mb-10 text-3xl text-cstm-grayish-blue">Our Pricing</h1>
       <div
@@ -141,5 +141,14 @@
         >
       </div>
     </div>
+  </div>
+  <div class="absolute bottom-1 left-0 right-0 text-center text-sm">
+    Challenge by <a
+      href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank"
+      class="underline">Frontend Mentor</a
+    >. Coded by
+    <a href="https://github.com/waleedmumtaz" class="underline">Waleed Mumtaz</a
+    >.
   </div>
 </main>
