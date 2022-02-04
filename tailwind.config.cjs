@@ -5,7 +5,7 @@ const config = {
     extend: {
       backgroundImage: {
         'linear-gradient':
-          'linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%))',
+          'linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%))',
         'img-top': 'url("/assets/bg-top.svg")',
         'img-bottom': 'url("/assets/bg-bottom.svg")',
       },

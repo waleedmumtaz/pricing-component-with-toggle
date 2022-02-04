@@ -12,6 +12,6 @@
 
   /* Toggle switch */
   input:checked ~ .dot {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
 }

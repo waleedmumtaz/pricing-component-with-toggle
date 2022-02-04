@@ -2,7 +2,7 @@
 
 ## Built with Svelte + Vite + Tailwind CSS
 
-### Preview: [Pricing Component with Toggle]()
+### Preview: [Pricing Component with Toggle](https://pricing-component-with-toggle-tau-mauve.vercel.app/)
 
 #### A challenge from [Frontend Mentor](https://www.frontendmentor.io)
 
