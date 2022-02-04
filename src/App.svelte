@@ -28,25 +28,23 @@
         <p>Annually</p>
         <!-- Toggle switch -->
         <div>
-          <label for="toggle" class="flex items-center cursor-pointer">
-            <!-- toggle -->
-            <div class="relative">
-              <!-- input -->
-              <input
-                type="checkbox"
-                bind:checked={toggled}
-                id="toggle"
-                class="sr-only"
-              />
-              <!-- line -->
-              <div
-                class="block bg-linear-gradient hover:brightness-125 w-14 h-8 rounded-full"
-              />
-              <!-- dot -->
-              <div
-                class="dot absolute right-1 top-1 bg-white w-6 h-6 rounded-full transition"
-              />
-            </div>
+          <!-- toggle -->
+          <label for="toggle" class="relative flex items-center cursor-pointer">
+            <!-- input -->
+            <input
+              type="checkbox"
+              bind:checked={toggled}
+              id="toggle"
+              class="sr-only"
+            />
+            <!-- line -->
+            <div
+              class="block bg-linear-gradient hover:brightness-125 w-14 h-8 rounded-full"
+            />
+            <!-- dot -->
+            <div
+              class="dot absolute right-1 top-1 bg-white w-6 h-6 rounded-full transition"
+            />
           </label>
         </div>
         <p>Monthly</p>
